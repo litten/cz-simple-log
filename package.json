@@ -1,0 +1,29 @@
+{
+  "name": "cz-simple-log",
+  "version": "1.0.0",
+  "description": "基于cz的commitlog适配器，简洁版",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/litten/cz-simple-log.git"
+  },
+  "author": "Litten <litten225@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.map": "^4.5.1",
+    "longest": "^1.0.1",
+    "pad-right": "^0.2.2",
+    "right-pad": "^1.0.1",
+    "word-wrap": "^1.0.3"
+  },
+  "devDependencies": {
+    "commitizen": "2.9.2",
+    "semantic-release": "^6.3.2"
+  },
+  "czConfig": {
+    "path": "./"
+  }
+}
