@@ -33,13 +33,15 @@
 
 ### log类型
 
-> feat - 实现了新功能
-fix - 修复了bug
-docs - 文档更改
-style - 不影响代码含义的更改（空白，格式化，缺少分号等）
-refactor - 代码重构，不是fix也不是feat
-perf - 提高性能的代码更改
-test - 添加或修改测试用例
-build - 影响构建系统或外部依赖性的更改（npm、package.json、fis3、webpack）
-chore - 不涉及src或测试文件的其他更改
-revert - 恢复先前的提交
+类型 | 含义
+:-- | :--
+feat | 实现了新功能
+docs | 文档更改
+style | 不影响代码含义的更改（空白，格式化，缺少分号等） 
+refactor | 代码重构，不是fix也不是feat
+perf | 提高性能的代码更改
+test | 添加或修改测试用例
+build | 影响构建系统或外部依赖性的更改（npm、package.json、fis3、webpack）
+chore | 不涉及src或测试文件的其他更改
+revert | 恢复先前的提交
+
