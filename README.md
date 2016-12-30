@@ -6,18 +6,18 @@
 
 ### 安装:
 
-1. 全局安装[cz-cli](https://github.com/commitizen/cz-cli)
+1、 全局安装[cz-cli](https://github.com/commitizen/cz-cli)
 
 ```npm install -g commitizen```
 
-2. 安装cz-simple-log
+2、 安装cz-simple-log
 
 ```npm install cz-simple-log```
 
 可以在项目目录，或全局安装，但目标是能引用到它。
 请看第3步。
 
-3. 在目录的```package.json```文件里添加配置
+3、 在目录的```package.json```文件里添加配置
 
 ```
 "config": {
@@ -33,7 +33,7 @@
 
 ### log类型
 
-feat - 实现了新功能
+> feat - 实现了新功能
 fix - 修复了bug
 docs - 文档更改
 style - 不影响代码含义的更改（空白，格式化，缺少分号等）
